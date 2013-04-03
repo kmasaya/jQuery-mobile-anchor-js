@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sample jQuery.mobile.anchor.js page2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+      $(document).bind("mobileinit", function(){
+      $.mobile.defaultPageTransition = "slide";
+      });
+    </script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+    <script type="text/javascript" src="./../jQuery.mobile.anchor.js"></script>
+    <script type="text/javascript">
+      $(document).ready( function(){
+      $(document).anchor( {});
+      });
+    </script>
+
+    <link type="text/css" rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css">
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="header">
+	<h1>Sample 2</h1>
+      </div>
+
+      <div data-role="content" id="top">
+	<a href="sample.html" data-role="button">ページ1へ</a>
+	<a href="#" data-role="button" data-anchor="#anchor1">アンカー1へ</a>
+	<a href="#" data-role="button" data-anchor="#anchor2">アンカー2へ</a>
+	<h2 id="anchor1">アンカー1</h2>
+	<p>Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. </p>
+	<h2>Dummy</h2>
+	<p>Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. </p>
+	<h2>Dummy</h2>
+	<p>Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. </p>
+	<a href="#" data-role="button" data-anchor="#top">ページトップへ</a>
+	<h2 id="anchor2">アンカー2</h2>
+	<p>Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. </p>
+	<h2>Dummy</h2>
+	<p>Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. </p>
+	<h2>Dummy</h2>
+	<p>Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. Smaple Text. </p>
+	<a href="#" data-role="button" data-anchor="#top">ページトップへ</a>
+	<a href="#" data-role="button" data-anchor="#anchor1">アンカー1へ</a>
+	<a href="#" data-role="button" data-anchor="#anchor2">アンカー2へ</a>
+	<a href="sample.html" data-role="button" data-anchor="#anchor1">ページ1のアンカー1へ</a>
+	<a href="sample.html" data-role="button" data-anchor="#anchor2">ページ1のアンカー2へ</a>
+      </div>
+
+      <div data-role="footer">
+	<h1>copyright</h1>
+      </div>
+    </div>
+  </body>
+</html>
